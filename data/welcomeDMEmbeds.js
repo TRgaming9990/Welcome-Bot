@@ -23,7 +23,7 @@ const { EmbedBuilder } = require("discord.js");
 const welcomeDMEmbeds = [
     new EmbedBuilder()
         .setColor("#7289DA") 
-        .setTitle("📩 Welcome to {server}! 🎉")
+        .setTitle("📩 Welcome! 🎉")
         .setDescription(
             "Hey **{user}**, we're so happy to have you in **{server}**! 💖\n\n" +
             "✨ Here’s what you can do next:\n" +
@@ -37,7 +37,7 @@ const welcomeDMEmbeds = [
 
     new EmbedBuilder()
         .setColor("#FFAEC9") 
-        .setTitle("🌸 Welcome, {user}! 🌸")
+        .setTitle("🌸 Welcome! 🌸")
         .setDescription(
             "Hey cutie **{user}**, welcome to **{server}**! 🌷\n\n" +
             "🐾 Here’s what you should do first:\n" +
